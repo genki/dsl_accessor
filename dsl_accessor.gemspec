@@ -3,11 +3,11 @@ $:.push File.expand_path("../lib", __FILE__)
 require "dsl_accessor/version"
 
 Gem::Specification.new do |s|
-  s.name        = "dsl_accessor"
+  s.name        = "genki-dsl_accessor"
   s.version     = DslAccessor::VERSION
-  s.authors     = ["maiha"]
-  s.email       = ["maiha@wota.jp"]
-  s.homepage    = "https://github.com/maiha/dsl_accessor"
+  s.authors     = ["genki"]
+  s.email       = ["genki@s21g.com"]
+  s.homepage    = "https://github.com/genki/dsl_accessor"
   s.summary     = %q{This plugin gives hybrid accessor class methods to classes by DSL like definition}
   s.description = %q{This plugin gives hybrid accessor class methods to classes by DSL like definition}
 
