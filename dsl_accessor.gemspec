@@ -19,7 +19,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency "optionize", ">= 0.1.0"
-  s.add_dependency "blankslate", ">= 2.1.2"
 
   s.add_development_dependency "rspec"
 end

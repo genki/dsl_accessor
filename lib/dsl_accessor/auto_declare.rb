@@ -2,7 +2,7 @@ require 'blankslate'
 
 module DslAccessor
   module AutoDeclare
-    class DefineClassMethod < BlankSlate
+    class DefineClassMethod < BasicObject
       def initialize(context, &block)
         @context = context
         instance_eval(&block)
@@ -19,7 +19,7 @@ module DslAccessor
         end
     end
 
-    class DefineInstanceMethod < BlankSlate
+    class DefineInstanceMethod < BasicObject
       def initialize(klass, &block)
         @klass = klass
         instance_eval(&block)
