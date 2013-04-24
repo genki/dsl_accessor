@@ -1,5 +1,3 @@
-require 'blankslate'
-
 module DslAccessor
   module AutoDeclare
     class DefineClassMethod < BasicObject
